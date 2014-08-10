@@ -1,0 +1,64 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery Shopping List</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+  <div class="row">
+  <div class="small-6 large-centered columns">
+    <table> 
+      <caption><h1>Kitchen Shopping List</h1></caption><br>
+  <thead>
+  <th>Grocery List</th>
+  <th><a href="#">Save List</a></th>
+  <th><a href="#">Print List</a></th>
+    <tr>
+      <th><div class="row">
+    <div class="large-12 columns">
+      <labe>
+        <input type="text" placeholder="add item" />
+      </label>
+    </div></th>
+      <th width="150"><a href="#" class="small radius button">Add item</a></th>
+      <th width="150"><a href="#" class="small radius button">Clear list</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+     
+      <td>Items</td>
+      <td>Quantity</td>
+      <td>Remove</td>
+    </tr>
+    <tr>
+     
+      <td>Milk</td>
+      <td><div class="row">
+       <div class="large-8 columns">
+       <label>
+        <input type="text" placeholder="quantity" />
+      </label>
+      </div>
+      </div>
+      </td>
+      <td><div class="medium-6 columns">
+      <input id="checkbox1" type="checkbox"><label for="checkbox1"></label>
+      </div></td>
+      
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+   
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
